@@ -21,27 +21,38 @@
             <h2>How am I doing it</h2>
             <p>I am connecting to the api using the fetch() method in javascript. I will then convert that data into the
                 json format where I display it in a friendly manner.</p>
-            <p>For this first demo I will use be using <a href="https://pokeapi.co">pokeapi</a></p>
+            <p>For this first demo I will use be using <a href="https://pokeapi.co">https://pokeapi.co</a></p>
         </div>
         <div id="exampleOne">
             <h2>Retrieving Information</h2>
             <p>Here is where I am getting a simple pokemon with his name and picture. I am doing this by calling the data directly. <br> This is what is will look like:</p>
             <p id="outputOne"></p>
         </div>
-        <h2></h2>
+        
         <div id="outputTwo">
+            <h2>Select a Pokemon</h2>
+            <p>Here you have the option of picking between three pokemon. I am doing this by changing the endUrl with the pokemon selected.</p>
             <button id="btnOne">Squirtle</button>
             <button id="btnTwo">Charmeleon</button>
-            <button id id="btnThree">Pikachu</button>
+            <button id="btnThree">Pikachu</button>
             <p id="outTwo">
             </p>
         </div>
         <div id="outputThree">
-           
+            <h2>Hear a joke</h2>
+            <p>Finally for this example I am going to be using a differnt api to show two being used at once.</p>
+            <p>For this first demo I will use be using <a href="https://publicapis.io/jokes-api">https://publicapis.io/jokes-api</a></p>
+            <p>Please pick a number between 1-50 to find hear a joke</p>
+            <input type="text" id="randomjoke" placeholder="3">
+            <button id="getJoke">Search</button>
             <p id="outThree">
             </p>
         </div>
     </div>
 </body>
+
+<footer>
+
+</footer>
 
 </html>
