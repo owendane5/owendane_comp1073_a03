@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>api tutorial</title>
+    <link href="styles.css" rel="stylesheet" />
+	<script src="javascript.js" defer></script>
 </head>
+
 <body>
     <div>
-    <h1>Using open-source api!</h1>
+        <h1>Using open-source api!</h1>
     </div>
-    <div id="explanation">
-    <h2>What am I doing?</h2>
-    <p>Here I am going to connect to a friendly RESTful API and display information from that onto my webpage</p>
-    <h2>How am I doing it</h2>
-    <p>I am connecting to the api using the fetch() method in javascript. I will then convert that data into the json format where I display it in a friendly manner.</p>
-    <p>The api I chose to use is called PokeApi and it is a consumption-only API meaning we can only pull the information</p>
+    <div>
+        <div id="explanation">
+            <h2>What am I doing?</h2>
+            <p>Here I am going to connect to a friendly RESTful API and display information from that onto my webpage
+            </p>
+            <h2>How am I doing it</h2>
+            <p>I am connecting to the api using the fetch() method in javascript. I will then convert that data into the
+                json format where I display it in a friendly manner.</p>
+            <p>For this first demo I will use be using <a href="https://pokeapi.co">pokeapi</a></p>
+        </div>
+        <div id="exampleOne">
+            <h2>Retrieving Information</h2>
+            <p>Here is where I am getting a simple pokemon with his name and picture. I am doing this by calling the data directly. <br> This is what is will look like:</p>
+            <p id="outputOne"></p>
+        </div>
+        <h2></h2>
+        <div id="outputTwo">
+            <button id="btnOne">Squirtle</button>
+            <button id="btnTwo">Charmeleon</button>
+            <button id id="btnThree">Pikachu</button>
+            <p id="outTwo">
+            </p>
+        </div>
+        <div id="outputThree">
+           
+            <p id="outThree">
+            </p>
+        </div>
     </div>
-    <div id="outputOne">
-        <p id="outOne">
-
-        </p>
-    </div>
-    <div id="outputTwo">
-        <p id="outTwo">
-            
-        </p>
-    </div>
-    
 </body>
+
 </html>
