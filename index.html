@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>api tutorial</title>
     <link href="styles.css" rel="stylesheet" />
-	<script src="javascript.js" defer></script>
+    <script src="javascript.js" defer></script>
 </head>
 
 <body>
-    <div>
+    <header id="titlehead">
         <h1>Using open-source api!</h1>
-    </div>
-    <div>
+    </header>
+    <div id="content">
         <div id="explanation">
             <h2>What am I doing?</h2>
             <p>Here I am going to connect to a friendly RESTful API and display information from that onto my webpage
@@ -25,13 +25,15 @@
         </div>
         <div id="exampleOne">
             <h2>Retrieving Information</h2>
-            <p>Here is where I am getting a simple pokemon with his name and picture. I am doing this by calling the data directly. <br> This is what is will look like:</p>
+            <p>Here is where I am getting a simple pokemon with his name and picture. I am doing this by calling the
+                data directly. <br> This is what is will look like:</p>
             <p id="outputOne"></p>
         </div>
-        
+
         <div id="outputTwo">
             <h2>Select a Pokemon</h2>
-            <p>Here you have the option of picking between three pokemon. I am doing this by changing the endUrl with the pokemon selected.</p>
+            <p>Here you have the option of picking between three pokemon. I am doing this by changing the endUrl with
+                the pokemon selected.</p>
             <button id="btnOne">Squirtle</button>
             <button id="btnTwo">Charmeleon</button>
             <button id="btnThree">Pikachu</button>
@@ -40,8 +42,9 @@
         </div>
         <div id="outputThree">
             <h2>Hear a joke</h2>
-            <p>Finally for this example I am going to be using a differnt api to show two being used at once.</p>
-            <p>For this first demo I will use be using <a href="https://publicapis.io/jokes-api">https://publicapis.io/jokes-api</a></p>
+            <p>This last example I am going to be using a different api</p>
+            <p>For this first demo I will use be using <a
+                    href="https://publicapis.io/jokes-api">https://publicapis.io/jokes-api</a></p>
             <p>Please pick a number between 1-400 to find hear a joke</p>
             <input type="text" id="randomJoke" placeholder="138">
             <button id="getJoke">Search</button>
